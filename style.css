@@ -1,0 +1,40 @@
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: burlywood;
+}
+.card{
+    width:100%;
+    background: rgb(40, 141, 143);
+    background: linear-gradient(80deg, rgb(17, 114, 116) 0%, rgb(184, 138, 40) 85%);
+}
+.card-img{
+    width:50%;
+    height:100px;
+    padding: 15px;
+    margin-left: 10%;
+    padding-bottom: 5px;
+}
+.row{
+    row-gap: 20px;
+}
+.card-body{
+    font-weight: 500;
+}
+.card-header{
+    font-weight: bold;
+    background-color: rgb(29, 26, 26);
+    color: whitesmoke;
+}
+#title{
+    background-color: rgb(58, 30, 30);
+    color: rgb(190, 188, 14);
+    padding: 5px;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+.modal-background{
+    background-color: aquamarine;
+}
